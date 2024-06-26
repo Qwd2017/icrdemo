@@ -1,0 +1,23 @@
+{
+  "name": "icrdemo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@cornerstonejs/core": "^1.80.0",
+    "@cornerstonejs/dicom-image-loader": "^1.80.0",
+    "@cornerstonejs/streaming-image-volume-loader": "^1.80.0",
+    "@cornerstonejs/tools": "^1.80.0",
+    "vite-plugin-cp": "^4.0.8",
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.3.1"
+  }
+}
